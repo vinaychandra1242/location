@@ -26,7 +26,7 @@ public class LocationController {
 		 
 		 String msg = "added user successfully"+entity.getId();
 		 
-		 modelMap.addAttribute("msg",msg);
+		 modelMap.addAttribute("msg ",msg);
 		 
 		 return "CreateLocation" + "!";
 	 }
