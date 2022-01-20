@@ -28,7 +28,7 @@ public class LocationController {
 		 
 		 modelMap.addAttribute("msg",msg);
 		 
-		 return "CreateLocation";
+		 return "CreateLocation" + "!";
 	 }
 	 
 
